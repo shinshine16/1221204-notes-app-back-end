@@ -6,7 +6,8 @@
   "scripts": {
     "prod": "NODE_ENV=production node ./src/server.js",
     "dev": "nodemon ./src/server.js",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "start": "nodemon ./src/server.js"
   },
   "keywords": [],
   "author": "Algi Soleh Rizaldi",
